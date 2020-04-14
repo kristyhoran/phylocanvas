@@ -5,7 +5,7 @@
   "main": "dist/phylocanvas.js",
   "repository": {
     "type": "git",
-    "url": "git://git@github.com:phylocanvas/phylocanvas.git"
+    "url": "git://git@github.com:kristyhoran/phylocanvas.git"
   },
   "keywords": [
     "phylocanvas",
@@ -20,7 +20,7 @@
   "author": "The Centre for Genomic Pathogen Surveillance",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/phylocanvas/phylocanvas/issues"
+    "url": "https://github.com/kristyhoran/phylocanvas/issues"
   },
   "homepage": "http://www.phylocanvas.org",
   "scripts": {
