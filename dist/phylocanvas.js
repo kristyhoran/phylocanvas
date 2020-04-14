@@ -3258,13 +3258,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	      var c;
 
 	      if (this.parent) {
-	        this.totalBranchLength = this.parent.totalBranchLength + Math.log(this.branchLength);
+	        this.totalBranchLength = this.parent.totalBranchLength + this.branchLength;
 	        if (this.totalBranchLength > this.tree.maxBranchLength) {
 	          this.tree.maxBranchLength = this.totalBranchLength;
 	        }
 	      } else {
-	        this.totalBranchLength = Math.log(this.branchLength);
-	        this.tree.maxBranchLength = Math.log(this.branchLength);
+	        this.totalBranchLength = this.branchLength;
+	        this.tree.maxBranchLength = this.totalBranchLength;
 	      }
 	      for (c = 0; c < this.children.length; c++) {
 	        this.children[c].setTotalLength();
